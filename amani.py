@@ -59,5 +59,5 @@ while True:
     requests_counter += 1
     print("Sended " + str(requests_counter) + " requests")
 
-    if time > 0:
+    if time < 0:
         sleep(time)

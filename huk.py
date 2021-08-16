@@ -6,7 +6,7 @@
 #[+]====================================[+]#
 #coding: utf-8
 #..:: > PaltalkBot v3.0 < ::.. Mod By VN
-import sys, os, threading, time, random, string, cfscrape, requests, socket, datetime, urllib, urllib2, urllib3, re, urlparse, optparse, request, bz2, json, glob, io, ssl, wget
+import sys, os, threading, time, random, string, cfscrape, requests, socket, datetime, urllib, urllib2, urllib3, re, urlparse, optparse, requests, bz2, json, glob, io, ssl, wget
 from bs4 import BeautifulSoup
 from colorama import Fore
 from scapy.all import *

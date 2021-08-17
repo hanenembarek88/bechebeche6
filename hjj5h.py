@@ -117,7 +117,6 @@ if __name__ == '__main__':
 		usage()
 		sys.exit()
 	parse_parameters(sys.argv[1:])
-	print ""%(int(num_thread),int(interval),url)
 	if url.count('/') == 2:
 		url = url + "/"
 	m = re.search('http\://([^/]*)/?.*', url)
@@ -149,4 +148,3 @@ if __name__ == '__main__':
 #			print ("Child process",os.getpid(),newpid)
 	time.sleep(int(interval))
 	signal.alarm(0)
-	print "main thread exit..."
